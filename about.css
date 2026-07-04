@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Part */
+
+header {
+    width: 100%;
+    height: 150px;
+    display: grid;
+}
+
+#logo img{
+    width: 80px;
+    height: 80px;
+}
+
+#logo {
+    position: absolute;
+    bottom: 89vh;
+    left: 98.5vh;
+}
+
+#headerline {
+    width: 100%;
+    height: 30px;
+    background-color: #A2797A;
+}
+
+#headeritems {
+    width: 100%;
+    grid-template-columns:   1fr 1fr  1fr  1fr 1fr ;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr;
+}
+
+#headeritems input{
+    width: 350px;
+}
+
+#headeritems{
+    justify-content: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Title Header */
+
+#main_title {
+    display: grid;
+    position: relative;
+    top: 20px;
+    justify-content: center;
+    align-content: center;
+    right: 25px;
+}
+
+#titleBelle {
+    font-size: 65px;
+    font-family: "The Nautigal", cursive;
+    font-weight: 400;
+}
+
+#detailstitle {
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+/* Minha Conta */
+
+#myaccount {
+    left: 40px;
+    width: 20vh;
+    height: 6vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    border: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.212);
+}
+
+#minhaconta {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+#minhaconta a {
+    text-decoration: none;
+    color: black;
+}
+
+#user {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    right: 1vh;
+    bottom: 2%;
+}
+
+/* Meu Carrinho */
+
+#carrinho {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+#carrinho a {
+    text-decoration: none;
+    color: black;
+}
+
+#myorder {
+    right: 80px;
+    width: 20vh;
+    height: 6vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    border:0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.212);
+}
+
+#cart {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    right: 1vh;
+}
+
+/* Pesquisa */
+
+#headeritems input {
+    position: relative;
+    right: 15vh;
+}
+
+#lupa {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 2vh;
+    top: 0.2vh;
+}
+
+/* Quem Somos */
+
+#quemsomos {
+    display: grid;
+}
+
+/* First Part */
+
+#firstpart {
+    position: relative;
+    padding-bottom: 10vh;
+    display: flex;
+    background-color: #ebdece;
+    background-image: url(QuemSomos/QUEM\ SOMOS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 79vh;
+}
+
+#texts1 {
+    display: grid;
+    font-family: "Playfair Display", serif;
+}
+
+/* Second Part */
+
+#secondpart {
+    display: flex;
+    background-color: #a2797a;
+    background-image: url(QuemSomos/NOSSA\ ESSÊNCIA\ \ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 36vh;
+}
+
+#texts2 {
+    display: grid;
+    font-family: "Playfair Display", serif;
+}

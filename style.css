@@ -1,0 +1,615 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Part */
+
+header {
+    width: 100%;
+    height: 150px;
+    display: grid;
+
+}
+
+#logo img{
+    width: 80px;
+    height: 80px;
+}
+
+#logo {
+    position: absolute;
+    bottom: 87vh;
+    left: 98.5vh;
+}
+
+#headerline {
+    width: 100%;
+    height: 30px;
+    background-color: #A2797A;
+}
+
+#headeritems {
+    width: 100%;
+    grid-template-columns:   1fr 1fr  1fr  1fr 1fr ;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr;
+}
+
+#headeritems input{
+    width: 350px;
+}
+
+#headeritems{
+    justify-content: center;
+    justify-items: center;
+    justify-content: center;
+  align-items: center;
+}
+
+/* Title Header */
+
+#main_title {
+    display: grid;
+    position: relative;
+    top: 25px;
+    justify-content: center;
+    align-content: center;
+    right: 25px;
+}
+
+#titleBelle {
+    font-size: 65px;
+    font-family: "The Nautigal", cursive;
+    font-weight: 400;
+
+}
+
+#detailstitle {
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+/* Minha Conta */
+
+#myaccount {
+    left: 40px;
+    width: 20vh;
+    height: 6vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    border: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.212);
+}
+
+#minhaconta {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+#minhaconta a {
+    text-decoration: none;
+    color: black;
+}
+
+#user {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    right: 1vh;
+    bottom: 2%;
+}
+
+/* Meu Carrinho */
+
+#carrinho {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+#carrinho a {
+    text-decoration: none;
+    color: black;
+}
+
+#myorder {
+    right: 80px;
+    width: 20vh;
+    height: 6vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    border:0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.212);
+}
+
+#cart {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    right: 1vh;
+}
+
+/* Pesquisa */
+
+#headeritems input {
+    position: relative;
+    right: 15vh;
+}
+
+#lupa {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 2vh;
+    top: 0.2vh;
+}
+
+/* Holiday Part. */
+
+#holiday {
+    margin-left: 2.2vh;
+    margin-top: 18px;
+    display: flex;
+    gap: 15px;
+    color: #ebdece;
+}
+
+#titleHol {
+    position: relative;
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 0,5%;
+    top: 80px;
+    text-align: center;
+    width: 100%;
+    padding-right: 40%;
+}
+
+#titleHol p{
+    width: 100%;
+    text-align: center;
+
+}
+
+#detHol {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#bolsa1 button {
+    color: #a2797a;
+    background-color: #ebdece;
+    border-color: #a2797a;
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    width: 50%;
+    font-size: 15px;
+}
+
+#bolsa1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#bolsa1 {
+    background-image: url(Home/Bolsas1.png);
+    width: 49%;
+    height: 50vh;
+    background-size: cover;
+    background-position: right;
+}
+
+/* Bolsas2 Part. */
+
+#bolsas2 {
+    background-image: url(Home/Bolsas2.png);
+    background-repeat: no-repeat;
+    width: 49%;
+    background-size: cover;
+    text-align: left;
+}
+
+#bolsas2 span {
+    color: #6a3b39;
+    padding-top: 100px;
+}
+
+#titleBolsas{
+    position: relative;
+    top: 30%;
+    left: 55%;
+    font-weight: 600;
+}
+
+#titleBol1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
+
+#titleBol2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+#titleBol3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+}
+
+#detailsBol4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#detailsBol5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+/* Second Part. */
+
+#secondpart {
+    display: flex;
+    color: #a2797a;
+}
+
+#fretegratis {
+    position: relative;
+    background-image: url(Home/FRETE.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 8vh;
+    width: 30vh;
+    left: 15vh;
+    top: 5vh;
+}
+
+#fretegratis p {
+    position: absolute;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    left: 52%;
+    top: 18%;
+}
+
+#fretegratis span {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    font-weight: 400;
+    font-size: 10px;
+    left: 53.5%;
+    top: 60%;
+}
+
+#juros {
+    position: relative;
+    background-image: url(Home/cartão.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 8vh;
+    width: 30vh;
+    left: 35vh;
+    top: 5vh;
+}
+
+#juros p {
+    position: absolute;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    left: 44%;
+    top: 18%;
+}
+
+#juros span {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    font-weight: 400;
+    font-size: 10px;
+    left: 47.5%;
+    top: 60%; 
+}
+
+#trocafacil {
+    position: relative;
+    background-image: url(Home/troca.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 8vh;
+    width: 30vh;
+    left: 53.2vh;
+    top: 5vh;
+}
+
+#trocafacil p {
+    position: absolute;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    left: 50%;
+    top: 18%;
+}
+
+#trocafacil span {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    font-weight: 400;
+    font-size: 10px;
+    left: 53.5%;
+    top: 60%;
+}
+
+#comprasegura {
+    position: relative;
+    background-image: url(Home/COMPRASEGURA.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 8vh;
+    width: 30vh;
+    left: 72vh;
+    top: 5vh;
+}
+
+#comprasegura p {
+    position: absolute;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    left: 40%;
+    top: 18%;
+}
+
+#comprasegura span {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    font-weight: 400;
+    font-size: 10px;
+    left: 42%;
+    top: 60%;
+}
+
+/* Third Part. */
+
+#thirdpart {
+    display: flex;
+}
+
+#bluepurse {
+    position: relative;
+    background-image: url(Home/BolsaAzul.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 300px;
+    height: 145px;
+    top: 10vh;
+    left: 2.2vh;
+}
+
+#bluepurse p {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    left: 23.6vh;
+    font-size: 20px;
+    top: 6.6vh;
+}
+
+#bluepurse button {
+    position: relative;
+    font-family: "Playfair Display", serif;
+    background-color: transparent;
+    border-width: 1px;
+    padding: 2px 10px 2px 10px;
+    left: 22vh;
+    top: 7.4vh;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#bluepurse a {
+    text-decoration: none;
+    color: black;
+}
+
+#chaveiro {
+    position: relative;
+    background-image: url(Home/ACESSÓRIOS\ pt.inicio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 145px;
+    top: 10vh;
+    left: 18vh;
+}
+
+#chaveiro button {
+    position: relative;
+    font-family: "Playfair Display", serif;
+    background-color: #dbafc3;
+    border-width: 1px;
+    padding: 3.3px 15px 3.3px 15px;
+    left: 3.5vh;
+    top: 9.95vh;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#chaveiro a {
+    text-decoration: none;
+    color: black;
+}
+
+#brownheel {
+    position: relative;
+    background-image: url(Home/SAPATOS\ pt.inicio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 145px;
+    top: 10vh;
+    left: 33.5vh;
+}
+
+#brownheel button {
+    position: relative;
+    font-family: "Playfair Display", serif;
+    background-color: #a57e7e;
+    border-width: 1px;
+    padding: 3.3px 15px 3.3px 15px;
+    left: 2.8vh;
+    top: 9.9vh;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#brownheel a {
+    text-decoration: none;
+    color: black;
+}
+
+#footpurse {
+    position: relative;
+    background-image: url(Home/COLEÇÕES\ pt.inicio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 145px;
+    top: 10vh;
+    left: 48vh;
+}
+
+#footpurse p {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    left: 3.6vh;
+    font-size: 20px;
+    top: 5vh;
+}
+
+#footpurse button {
+    position: relative;
+    font-family: "Playfair Display", serif;
+    background-color: transparent;
+    border-width: 1px;
+    padding: 2px 10px 2px 10px;
+    left: 5vh;
+    top: 6vh;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#footpurse a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Fourth Part. */
+
+#fourthpart{
+    display: flex;
+}
+
+#lançamentos {
+    position: relative;
+    background-image: url(Home/LANÇAMENTOS\ pt.1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 16vh;
+    left: 2.2vh;
+    width: 49%;
+    height: 185px;
+}
+
+#titleLan {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    left: 3.6vh;
+    font-size: 39px;
+    top: 3.5vh;
+}
+
+#subtitleLan {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    left: 6vh;
+    font-size: 25px;
+    top: 4.5vh;
+}
+
+#lançamentos button {
+    position: relative;
+    font-family: "Playfair Display", serif;
+    background-color: transparent;
+    border-width: 1px;
+    padding: 4px 30px 4px 30px;
+    left: 11vh;
+    top: 5.8vh;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#lançamentos a {
+    text-decoration: none;
+    color: black;
+}
+
+#detLan {
+    position: relative;
+    top: 1.5vh;
+}
+
+#sale {
+    position: relative;
+    background-image: url(Home/SALE\ pt.1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 185px;
+    top: 16vh;
+    left: 4vh;
+}
+
+#sale button {
+    position: relative;
+    font-family: "Playfair Display", serif;
+    background-color: #a57e7e;
+    border-width: 1px;
+    padding: 4px 40px 4px 40px;
+    left: 7.6vh;
+    top: 19vh;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#sale a {
+    text-decoration: none;
+    color: black;
+}
